@@ -1007,7 +1007,7 @@
   }
   shareBtn.addEventListener('click', async ()=>{
     const url = shareUrl();
-    const text = `「染色」を正解しました!やり直した回数:${retryCount}回`;
+    const text = `${retryCount}回塗りなおしました\nあなたは何回で成功できるかな?`;
     shareNote.textContent = '';
 
     if(navigator.share){
